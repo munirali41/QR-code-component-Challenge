@@ -25,7 +25,7 @@
     width: 80%;
     border-radius: var(--wrapper-border-raius);
     margin: 35px;
-    margin-top: 170px;
+    margin-top: 100px;
   }
   .qr-code {
     grid-column: span 12;
@@ -41,7 +41,7 @@
   }
   .header h2 {
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-top: -2px;
   }
   .header p {
@@ -62,7 +62,7 @@
     font-size: 10px;
   }
 }
-@media screen and (min-device-width: 1440px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
   * {
     box-sizing: border-box;
   }
@@ -71,24 +71,24 @@
     font-weight: var(--font-weight);
     background: var(--body--bg);
     font-family: "Outfit", sans-serif;
-    min-height: 100vh;
-    width: 30%;
-    margin: 100px 0px 0px 500px;
   }
   .wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 0.5fr;
     background: var(--wrapper-bg);
+    min-height: 40vh;
+    width: 22%;
     border-radius: var(--wrapper-border-raius);
+    margin: 100px 0px 0px 570px;
   }
   .qr-code {
     grid-column: span 12;
 
-    padding: 33px 0px 0px 40px;
+    padding: 20px;
   }
   .qr-code img {
-    width: 350px;
+    width: 275px;
     border-radius: 7px;
   }
   .header {
@@ -96,27 +96,24 @@
   }
   .header h2 {
     font-size: 20px;
-    letter-spacing: 2px;
-    padding: 0px 0px 0px 80px;
+    padding-left: 37px;
+    margin-top: -2px;
   }
   .header p {
     color: #aeafba;
-    padding-left: 65px;
-    padding-right: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 0.2px;
     line-height: 20px;
-
-    text-align: center;
+    padding-left: 35px;
     font-size: 15px;
   }
   .header p span {
-    padding-left: -10px;
+    padding-left: 71px;
   }
   body a {
     text-decoration: none;
   }
   .programmerInfo {
-    margin-left: 76px;
-    font-size: 13px;
+    margin-left: 600px;
+    font-size: 10px;
   }
 }
