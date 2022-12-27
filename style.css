@@ -51,7 +51,8 @@
     padding-left: 30px;
     font-size: 15px;
   }
-  .header p span {
-    padding-left: 71px;
+
+  body a {
+    text-decoration: none;
   }
 }
